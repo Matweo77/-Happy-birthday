@@ -1,0 +1,32 @@
+body,
+html {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/fondo_dragonball.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel.rounded {
+    border-radius: 1rem;
+}
+
+p {
+    color: black;
+}
+
+.video{
+    position: relative;
+    bottom: 1rem;
+
+}
+
+#dragon{
+    display: grid;
+    place-items: center;
+}
+
+#texto{
+
+}
+  
+ 

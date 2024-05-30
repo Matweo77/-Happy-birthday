@@ -1,0 +1,116 @@
+body {
+    background-color: #77b396;
+}
+
+
+
+.texto{
+    font-family: 'Great Vibes', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    font-size: 65px;
+    color: black;
+    animation: float 5s infinite;
+}
+
+/* #message {
+    border: solid 1px black;
+}
+
+#a {
+    border: solid 1px rgb(203, 120, 120);
+
+}
+
+#b {
+    border: solid 1px rgb(115, 170, 38);
+
+}
+
+#c {
+    border: solid 1px rgb(129, 41, 164);
+
+} */
+
+
+.love {
+    font-family: 'Great Vibes', cursive;
+    text-decoration: none;
+    color: black;
+    margin-top: 1.3rem;
+}
+
+
+
+
+/*imagenes de globos*/
+#img-uno {
+    width: 200px;
+    margin-top: 4rem;
+    animation: globos ease 2.5s;
+}
+
+#img-dos {
+    width: 200px;
+    margin-top: 4rem;
+    animation: globos ease 2.5s;
+}
+
+/*imagenes de pudines*/
+#img-pudin-1 {
+    margin-left: 3rem;
+    width: 180px;
+    margin-top: 5rem;
+    animation: pudin1 ease 3s ;
+}
+
+#img-pudin-2 {
+    width: 180px;
+    margin-top: 5rem;
+    animation: pudin2 ease 3s ;
+}
+
+
+
+
+/*key frames pudin*/
+@keyframes pudin1 {
+    0% {
+        transform: translate(-30rem);
+    }
+
+}
+
+/*key frames pudin-2*/
+@keyframes pudin2 {
+    0% {
+        transform: translate(30rem);
+    }
+
+
+}
+
+
+
+/*key frames globos*/
+@keyframes globos {
+    0% {
+        transform: translateY(-40rem);
+    }
+
+
+}
+
+/*key frames span*/
+@keyframes float {
+
+    0%, 100% {
+        transform: translateY();
+    }
+
+    50% {
+        transform: translateY(-40px);
+    }
+}

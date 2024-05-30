@@ -1,0 +1,53 @@
+body,
+html {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/1532833.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img-target{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin-top: 1rem;
+    box-shadow: 2px 2px 60px black
+}
+
+#line{
+    display: grid;
+    place-items: center;
+}
+#line-1{
+    display: grid;
+    place-items: end;
+}
+
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
